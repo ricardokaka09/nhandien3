@@ -1,0 +1,29 @@
+{
+  "name": "doAn3",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "mocha system-test --timeout 600000"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^2.1.0",
+    "mathjs": "^7.0.0",
+    "natural": "^2.0.0",
+    "pureimage": "^0.2.1",
+    "redis": "^3.0.0",
+    "yargs": "^15.0.0"
+  },
+  "devDependencies": {
+    "@google-cloud/storage": "^5.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.0",
+    "uuid": "^8.0.0"
+  }
+}
